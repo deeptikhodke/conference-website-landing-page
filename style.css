@@ -1,0 +1,270 @@
+/* Existing Styles */
+/*body*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+}
+
+.container1 {
+    width: 100%;
+    height: 500px;
+    background-image: url(backgroundimg.jpg);
+}
+/*header*/
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.navbar .left {
+    display: flex;
+    align-items: center;
+    padding-left: 200px;
+    padding-top: 65px;
+}
+
+.navbar .left h1 {
+    font-size: 24px;
+    color: white;
+    margin-left: 10px;
+    font-family: serif;
+    font:bold;
+}
+
+.navbar .left .logo {
+    margin-right: 10px;
+}
+
+.navbar .right {
+    float: right;
+    line-height: 45px;
+    padding-right: 200px;
+}
+
+.navigation {
+    display: flex;
+    gap: 2rem;
+    font-family: system-ui;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+}
+
+.middle {
+    text-align: center;
+    padding-top: 70px;
+}
+
+.middle h3 {
+    font-weight: 100;
+    font-size: 40px;
+    font-family: system-ui;
+    color: lightseagreen;
+}
+
+.middle p {
+    font-weight: 100;
+    font-size: 20px;
+    color: white;
+    font-weight: 100;
+    font-family: system-ui;
+    line-height: 50px;
+}
+
+.registerButton {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.registerButton button {
+    width: 150px; /* Adjust width as needed */
+    padding: 10px 10px;
+    background-color: #0b0899;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Styles for Expert Voices in Technology Section */
+
+.container4 {
+    padding: 80px 150px;
+    background-color: #0a114d;
+}
+
+.expert-voices {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.expert-voices h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #f8f8f8;
+    font-size: 36px;
+}
+
+.speakers {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.speaker {
+    text-align: center;
+    margin-bottom: 40px;
+    border: 1px solid #f5f2f2; /* Adding border */
+    padding: 20px; /* Adding padding */
+    margin: 0 10px; /* Adjusting margin */
+    border-radius: 15px; /* Adding border radius */
+}
+
+.speaker img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.speaker h3 {
+    color: #fcfcfc;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.speaker p {
+    color: #e0e0e0;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
+/* Styles for About Us Section */
+
+.about-us {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px; /* Space between "About Us" and information */
+    padding: 80px 150px; /* Adjusted padding */
+    background: linear-gradient(to right, #0a114d, #220641); 
+
+}
+
+.about-us h2 {
+    color: #ffffff;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.about-us p {
+    color: #e7e7e7;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/*Styles for Newsletter Section */
+.container5 {
+    position: relative; /* Add position relative for the bottom design */
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+   background-image: url(backgroundimg.jpg);
+    
+}
+.newsletter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.newsletter-content {
+    width: 45%; /* Adjust width as needed */
+}
+
+.newsletter-content h2 {
+    font-size: 28px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.newsletter-content p {
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+.subscribe-form {
+    width: 45%; /* Adjust width as needed */
+}
+
+.subscribe-form input[type="email"] {
+    width: calc(100% - 100px); /* Adjust width as needed */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.subscribe-form button {
+    width: 100px; /* Adjust width as needed */
+    padding: 10px;
+    background-color: #0b0899;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.bottom-design {
+    position: absolute;
+    bottom: -15px; /* Adjust position as needed */
+    left: 0;
+    right: 0;
+    height: 30px;
+    background: linear-gradient(to right, #0a114d, #220641); /* Add gradient background */
+    border-bottom-left-radius: 10px; /* Match border radius of container */
+    border-bottom-right-radius: 10px; /* Match border radius of container */
+}
+
+
+/*footer*/
+.container3{
+    width: 100%;
+    height: 120px;
+    background-color: #18115a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40rem;
+}
+
+.container3 .copyright{ /* this is copyright at the bottom of the page */
+    color: white;
+    display: flex;
+}
+
+.container3 .navigation2{ /* navigation bar at the bottom of the page */
+    color: white;
+    display: flex;
+    gap: 1rem;
+    font-family: system-ui;
+    font-weight: 100;
+    
+}
+
+.container3 .navigation2 a{
+    color: white;
+    text-decoration: none;
+}
